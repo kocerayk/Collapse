@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 :root {
-  --primary-color: #fa6000; /* Orange */
-  --secondary-color: #333;  /* Darker color for contrast */
-  --glass-bg: rgba(255, 255, 255, 0.2); /* Background color for glassmorphism */
-  --glass-border: rgba(255, 255, 255, 0.3); /* Border color for glassmorphism */
-  --glass-shadow: rgba(0, 0, 0, 0.1); /* Shadow for glassmorphism */
+  --primary-color: #fa6000; 
+  --secondary-color: #333;  
+  --glass-bg: rgba(255, 255, 255, 0.2); 
+  --glass-border: rgba(255, 255, 255, 0.3); 
+  --glass-shadow: rgba(0, 0, 0, 0.1); 
 }
 
 * {
@@ -37,7 +37,7 @@ h1 {
 .faq {
   background: var(--glass-bg);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  -webkit-backdrop-filter: blur(10px); 
   border: 1px solid var(--glass-border);
   border-radius: 20px;
   margin: 20px 0;
@@ -56,7 +56,7 @@ h1 {
 }
 
 .faq.active::before {
-  content: '\f059'; /* FontAwesome chevron up icon */
+  content: '\f059'; 
   font-family: 'Font Awesome 6 Free';
   color: var(--primary-color);
   font-size: 5rem;
